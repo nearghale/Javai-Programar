@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_azul"
+    tools:context=".Activity_oque_ira_aprender_capitulo">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_oque_ira_aprender"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/title_activity_oque_ira_aprender_capitulo"
+            app:titleTextColor="@color/white" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+
+        <ImageView
+            android:id="@+id/oque_ira_aprender_botao_next"
+            android:layout_width="69dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/botao_verde_redondo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/btn_adicionarPerfil"
+            app:srcCompat="@mipmap/next" />
+
+        <ImageView
+            android:id="@+id/oque_aprender_capitulo_mascote"
+
+            android:layout_width="237dp"
+            android:layout_height="259dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="8dp"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:src="@drawable/sem_perfil_personagem_1"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.474"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/oque_aprender_capitulo_mensagem"
+            app:layout_constraintVertical_bias="0.88" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="330dp"
+            android:layout_height="1dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/gray"
+            android:focusable="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/oque_aprender_capitulo_mascote" />
+
+
+        <ImageView
+            android:id="@+id/oque_aprender_capitulo_mensagem"
+            android:layout_width="358dp"
+            android:layout_height="216dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="64dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/mensagem_laranja" />
+
+        <TextSwitcher
+            android:id="@+id/oque_aprender_capitulo_textSwitcher"
+            android:layout_width="343dp"
+            android:layout_height="134dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:inAnimation="@anim/slide_in_left"
+            android:outAnimation="@anim/slide_out_right"
+            android:textColor="@color/white"
+            android:typeface="normal"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="@+id/oque_aprender_capitulo_mensagem"
+            app:layout_constraintEnd_toEndOf="@+id/oque_aprender_capitulo_mensagem"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="@+id/oque_aprender_capitulo_mensagem"
+            app:layout_constraintTop_toTopOf="@+id/oque_aprender_capitulo_mensagem"
+            app:layout_constraintVertical_bias="0.166"
+            tools:text="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" />
+
+        <Button
+            android:id="@+id/oque_aprender_capitulo_btn_continuar"
+
+            android:layout_width="250dp"
+            android:layout_height="49dp"
+
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/botao_verde_degrade"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Continuar"
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:visibility="invisible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/view" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

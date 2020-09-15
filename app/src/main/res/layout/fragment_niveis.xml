@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_disciplinas_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".programacao.niveis.frag_niveis">
+
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/escolherDificuldade_botao_avancado"
+        android:layout_width="196dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/botao_vermelho_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="4dp"
+        android:text="Avançado"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escolherDificuldade_botao_intermediario" />
+
+    <Button
+        android:id="@+id/escolherDificuldade_botao_intermediario"
+        android:layout_width="196dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/botao_amarelo_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Intermediário"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escolherDificuldade_botao_basico" />
+
+
+    />
+
+
+    <Button
+        android:id="@+id/escolherDificuldade_botao_basico"
+        android:layout_width="196dp"
+        android:layout_height="110dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/botao_verde_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Básico"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

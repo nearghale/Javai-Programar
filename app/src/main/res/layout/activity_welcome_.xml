@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome_Activity"
+    android:orientation="vertical"
+    android:id="@+id/welcome_background"
+    android:background="@drawable/background_azul">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/welcome_frameLayoutTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="344dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/banner_azul"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:contentDescription="@string/perfilAtivo" />
+
+        <TextView
+            android:id="@+id/welcome_txtNome"
+            android:layout_width="170dp"
+            android:layout_height="32dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="56dp"
+            android:fontFamily="@font/delius"
+            android:text="@string/nome"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/background_light"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:typeface="serif"
+            app:layout_constraintEnd_toEndOf="@+id/imageView2"
+            app:layout_constraintHorizontal_bias="0.867"
+            app:layout_constraintStart_toStartOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+
+            android:id="@+id/welcome_imagem_perfil"
+            android:layout_width="125dp"
+            android:layout_height="110dp"
+            android:layout_gravity="start"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/sem_perfil"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <Button
+            android:id="@+id/welcome_view_pontuacao"
+            android:layout_width="155dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/botao_verde_claro_degrade"
+            android:fontFamily="@font/delius"
+            android:text="@string/pontua_o_000"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/welcome_imagem_perfil"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_txtNome" />
+
+        <Button
+            android:id="@+id/welcome_view_nivel"
+            android:layout_width="155dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/botao_amarelo_claro_degrade"
+            android:fontFamily="@font/delius"
+            android:text="@string/nivel"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/welcome_imagem_perfil"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_view_pontuacao" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/welcome_frameLayoutButtom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome_frameLayoutTop"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <ImageView
+            android:id="@+id/welcome_livro"
+            android:layout_width="412dp"
+            android:layout_height="335dp"
+            android:contentDescription="@string/topoTelaBemVindo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.65"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.48000002"
+            app:srcCompat="@drawable/livro_aberto_verde_azul_final" />
+
+        <View
+            android:id="@+id/linhaazul"
+            android:layout_width="300dp"
+
+            android:layout_height="2dp"
+            android:layout_gravity="center_vertical|center_horizontal|clip_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/white"
+            android:focusable="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/imageView3"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="191dp"
+            android:layout_height="55dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_livro"
+            app:layout_constraintVertical_bias="0.9"
+            app:srcCompat="@drawable/matheasy_laranja"
+            android:contentDescription="@string/mathEasyWelcome" />
+
+        <ImageView
+            android:id="@+id/welcome_continuarBtn"
+            android:layout_width="106dp"
+            android:layout_height="94dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/linhaazul"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/welcome_livro"
+            app:layout_constraintVertical_bias="1.0"
+            app:srcCompat="@drawable/continuar_roxo"
+            android:contentDescription="@string/continuarAula" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="73dp"
+            android:layout_height="69dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@+id/welcome_continuarBtn"
+            app:layout_constraintHorizontal_bias="0.89"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/welcome_continuarBtn"
+            app:srcCompat="@drawable/toque_amarelo"
+            android:contentDescription="@string/ativarDesativarToques" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="71dp"
+            android:layout_height="67dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.214"
+            app:layout_constraintStart_toEndOf="@+id/welcome_continuarBtn"
+            app:layout_constraintTop_toTopOf="@+id/welcome_continuarBtn"
+            app:layout_constraintVertical_bias="0.26"
+            app:srcCompat="@drawable/musica_verde"
+            android:contentDescription="@string/ativarDesativaSons" />
+
+        <ImageView
+            android:id="@+id/welcome_opcao_aprender"
+            android:layout_width="181dp"
+            android:layout_height="189dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/welcome_continuarBtn"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/welcome_livro"
+            app:layout_constraintVertical_bias="0.85" />
+
+        <ImageView
+            android:id="@+id/welcome_opcao_treinar"
+            android:layout_width="156dp"
+            android:layout_height="177dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/welcome_continuarBtn"
+            app:layout_constraintEnd_toEndOf="@+id/welcome_livro"
+            app:layout_constraintStart_toEndOf="@+id/welcome_opcao_aprender"
+            app:layout_constraintTop_toTopOf="@+id/welcome_livro"
+            app:layout_constraintVertical_bias="0.77" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
+
+
+
+

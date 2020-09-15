@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1E90FF</color>
+    <color name="corCeleste">#007FFF</color>
+    <color name="azulFurtivo">#1E90FF</color>
+    <color name="azulTurqueza">#00CCEE</color>
+    <color name="colorPrimaryDark">#4169E1</color>
+    <color name="DeepSkyBlue">#00bfff</color>
+    <color name="corCeu">#87CEEB</color>
+    <color name="azulClaro">#ADD8E6</color>
+    <color name="azul_roxo">#3f51b5</color>
+    <color name="azul_transparente">#8C1E90FF</color>
+    <color name="azul_transparente_two">#591E90FF</color>
+    <color name="azul_transparente_30">#4d1E90FF</color>
+    <color name="azul_transparente_10">#1a17e8c9</color>
+
+
+
+    <color name="mediumSlateBlue">#7B68EE</color>
+
+    <color name="amarelo">#ECDB00</color>
+    <color name="amarelo_transparente">#59ECDB00</color>
+    <color name="amareloOuro">#FAFAD2</color>
+
+    <color name="darkOrange">#FF8C00</color>
+    <color name="light_orange">#fdf2df</color>
+    <color name="light_orangeDark">#ebd6ab</color>
+
+    <color name="salmon">#FA8072</color>
+    <color name="colorAccent">#ff4081</color>
+    <color name="coral">#FF7F50</color>
+    <color name="tomato">#FF6347</color>
+    <color name="fireBrick">#B22222</color>
+    <color name="darkRed">#8B0000</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="white">#ffffff</color>
+    <color name="white_30">#4Dffffff</color>
+
+    <color name="green">#28cf39</color>
+    <color name="springGren">#00FF7F</color>
+    <color name="springGren_transparente">#5900FF7F</color>
+    <color name="springGren_transparente_two">#8C00FF7F</color>
+    <color name="pareGreen">#98FB98</color>
+    <color name="limeGreen">#32CD32</color>
+
+    <color name="preto_transparente">#8C131212</color>
+    <color name="cinza_transparente">#59131212</color>
+
+    <color name="gray">#D3D3D3</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="black">#131212</color>
+    <color name="black_two">#000</color>
+    <color name="aliceBlue">#F0F8FF</color>
+
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Math Easy</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity__login">Javai Programar</string>
+    <string name="title_activity_oque_ira_aprender_capitulo">Capítulo</string>
+    <string name="title_activity_seila">seila</string>
+    <string name="activity_login_btnAdicionar">Adicionar Perfil</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_add_perfil">Criar Perfil</string>
+
+    <string name="title_activity_escolher_opcao">Opções de Aprendizado</string>
+
+    <string name="title_activity_circlemenu">circulo menu</string>
+    <string name="title_activity_circle">circle</string>
+    <string name="title_activity_tab_menu_teste">tabMenu_teste</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="img1">TODO</string>
+    <string name="img2">TODO</string>
+    <string name="img3">TODO</string>
+    <string name="img4">TODO</string>
+    <string name="img5">TODO</string>
+    <string name="img6">TODO</string>
+    <string name="img7">TODO</string>
+    <string name="img8">TODO</string>
+    <string name="anterior">ANTERIOR</string>
+    <string name="proximo">PRÓXIMO</string>
+    <string name="nome">Nome</string>
+    <string name="pontua_o_000">Pontuação</string>
+    <string name="perfilAtivo">Perfil Ativo</string>
+    <string name="topoTelaBemVindo">topo da tela bem vindo</string>
+    <string name="nivel">Nivel</string>
+    <string name="mathEasyWelcome">math easy</string>
+    <string name="continuarAula">Continuar Aula</string>
+    <string name="ativarDesativarToques">Ativar ou Desativar toques</string>
+    <string name="ativarDesativaSons">Ativar ou Desativar Sons</string>
+
+
+</resources>

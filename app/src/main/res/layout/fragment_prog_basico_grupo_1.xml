@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_disciplinas_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".programacao.basica.frag_prog_basico_grupo_1">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/basico_instrucoes_controle_parte_1"
+        android:layout_width="186dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/botao_verde_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Instruções de controle: parte 1"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basico_introducao_classes_objetos_metodos_strings"
+        app:layout_constraintVertical_bias="0.014" />
+
+    <Button
+        android:id="@+id/basico_introducao_java"
+        android:layout_width="186dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botao_verde_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="4dp"
+        android:text="Introdução a linguagem Java"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basico_introducao"
+        tools:text="Introdução a linguagem Java" />
+
+    <Button
+        android:id="@+id/basico_introducao_classes_objetos_metodos_strings"
+        android:layout_width="186dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/botao_verde_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text=" classes, objetos, métodos e strings "
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basico_introducao_java" />
+
+
+    />
+
+
+    <Button
+        android:id="@+id/basico_introducao"
+        android:layout_width="186dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/botao_verde_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Introdução"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/basico_btn_next_grupo_1"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/btn_next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basico_instrucoes_controle_parte_1" />
+
+    <ImageView
+        android:id="@+id/basico_btn_prev_grupo_1"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/btn_prev"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/basico_instrucoes_controle_parte_1" />
+
+    <TextView
+        android:id="@+id/home_basico_grupo_1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/delius"
+        android:text=""
+        android:background="@drawable/home_aulas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toStartOf="@+id/basico_btn_next_grupo_1"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toEndOf="@+id/basico_btn_prev_grupo_1"
+        app:layout_constraintTop_toBottomOf="@+id/basico_instrucoes_controle_parte_1" />
+
+</android.support.constraint.ConstraintLayout>

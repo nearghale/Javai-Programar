@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_avancado_grupo_2_constraint"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".programacao.avancado.frag_prog_avancado_grupo_2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:id="@+id/avancado_estrutura_dados_genericas_personalizadas"
+        android:layout_width="186dp"
+        android:layout_height="84dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/botao_vermelho_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Estruturas de dados genéricas personalizadas"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/avancado_componentes_gui_parte_2"
+        android:layout_width="186dp"
+        android:layout_height="78dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botao_vermelho_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="4dp"
+        android:text="Componentes GUI: parte 2"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="21sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avancado_estrutura_dados_genericas_personalizadas" />
+
+    <Button
+        android:id="@+id/avancado_concorrencia"
+        android:layout_width="186dp"
+        android:layout_height="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botao_vermelho_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Concorrência"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avancado_componentes_gui_parte_2" />
+
+
+    />
+
+
+    <Button
+        android:id="@+id/avancado_acesso_banco_dados_jdbc"
+        android:layout_width="186dp"
+        android:layout_height="83dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/botao_vermelho_degrade_animacao_list"
+        android:fontFamily="casual"
+        android:paddingTop="3dp"
+        android:text="Acesso a bancos de dados com JDBC"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avancado_concorrencia" />
+
+
+
+    <ImageView
+        android:id="@+id/avancado_btn_prev_grupo_2"
+        android:layout_width="35dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="17dp"
+        android:src="@drawable/btn_prev"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avancado_acesso_banco_dados_jdbc" />
+
+    <TextView
+        android:id="@+id/home_avancado_grupo_2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="19dp"
+        android:fontFamily="@font/delius"
+        android:background="@drawable/home_aulas"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toEndOf="@+id/avancado_btn_prev_grupo_2"
+        app:layout_constraintTop_toBottomOf="@+id/avancado_acesso_banco_dados_jdbc" />
+
+</android.support.constraint.ConstraintLayout>

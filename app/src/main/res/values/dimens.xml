@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="dimension_icons">60</dimen>
+    <dimen name="app_icon_size2">60dp</dimen>
+</resources>

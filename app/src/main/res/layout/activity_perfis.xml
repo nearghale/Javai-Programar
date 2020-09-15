@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_azul"
+    tools:context=".PerfisActivity">
+
+
+    <LinearLayout
+        android:layout_width="432dp"
+        android:layout_height="640dp"
+        android:layout_marginBottom="0dp"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+        </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/title_activity__login"
+            app:titleTextColor="@color/white" />
+
+
+        <ListView
+            android:id="@+id/lvPerfis"
+            android:layout_width="384dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.444"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar"
+            app:layout_constraintVertical_bias="0.0">
+
+
+        </ListView>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_layout_actPerfis"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <ImageView
+            android:id="@+id/activity_perfis_atualizando"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+
+        <com.michaldrabik.tapbarmenulib.TapBarMenu
+            android:id="@+id/tapBarMenu"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lvPerfis"
+            app:layout_constraintVertical_bias="1.0"
+            app:tbm_backgroundColor="@color/colorPrimary"
+            app:tbm_buttonMarginRight="8dp"
+            app:tbm_buttonPosition="right">
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/actPerfis_item_add"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="abrirAddPerfil"
+
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/ic_add_person_round" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/actPerfis_item_edt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/ic_editar_2_round" />
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/actPerfis_item_excluir"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/ic_excluir_round" />
+
+
+            <Space
+                android:layout_width="30dp"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/item1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:src="@mipmap/ic_configuracoes" />
+
+            <Space
+                android:layout_width="95dp"
+                android:layout_height="match_parent" />
+
+
+        </com.michaldrabik.tapbarmenulib.TapBarMenu>
+
+
+    </FrameLayout>
+
+
+</FrameLayout>
+
+
+
+

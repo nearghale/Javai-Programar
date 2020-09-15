@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="179dp"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:id="@+id/linha_layout_perfil"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_marginTop="20dp">
+
+            <FrameLayout
+                android:id="@+id/layout_excluir"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+
+                    android:id="@+id/botao_excluir"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+
+                    android:layout_gravity="center_horizontal|center"
+                    android:src="@mipmap/lixeira"
+                    app:civ_border_color="@color/white"
+                    app:civ_border_width="2dp" />
+
+            </FrameLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+
+                android:id="@+id/welcome_imagem_perfil"
+                android:layout_width="150dp"
+                android:layout_height="156dp"
+                android:layout_gravity="left"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/sem_perfil"
+
+                app:civ_border_color="@color/white"
+                app:civ_border_width="2dp" />
+
+
+            <LinearLayout
+                android:id="@+id/layout_perfil"
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/perfis_txtNome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/delius"
+                    android:text="Nome do Perfil"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="218dp"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@color/gray"
+                    android:focusable="false" />
+
+                <TextView
+                    android:id="@+id/linha_pontuacao_perfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="15dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="8"
+                    android:fontFamily="@font/delius"
+                    android:gravity="fill_horizontal|center|clip_horizontal"
+                    android:text="Pontuação: 000"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/black_two"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+                <TextView
+                    android:id="@+id/linha_nivel_perfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_weight="8"
+                    android:fontFamily="@font/delius"
+                    android:gravity="fill_horizontal|center|clip_horizontal"
+                    android:text="Nivel: 0"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat"
+                    android:textColor="@color/black_two"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:typeface="normal" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_excluir_editar"
+            android:layout_width="match_parent"
+            android:layout_height="179dp"
+            android:visibility="visible">
+
+            <ImageView
+                android:id="@+id/linha_excluirPerfil"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="47dp"
+                android:background="@drawable/botao_vermelho_redondo"
+                android:visibility="visible"
+                app:srcCompat="@mipmap/lixeira_sem_sombra">
+
+
+            </ImageView>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/linhaazul"
+            android:layout_width="match_parent"
+
+            android:layout_height="2dp"
+            android:layout_gravity="center_vertical|center_horizontal|clip_horizontal"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:background="@color/gray"
+            android:focusable="false" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
